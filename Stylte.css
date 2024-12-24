@@ -1,0 +1,153 @@
+/* Reset some basic styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Header Section */
+header {
+    background-color: #2F5597;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5rem;
+}
+
+header p {
+    margin: 10px 0;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+}
+
+header .socials a {
+    margin: 0 10px;
+}
+
+/* About Section */
+#about {
+    padding: 40px 0;
+    background-color: #CCE3EB;
+}
+
+#about h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+#about p {
+    font-size: 1.1rem;
+}
+
+/* Skills Section */
+#skills {
+    padding: 40px 0;
+}
+
+#skills h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+#skills ul {
+    list-style-type: none;
+}
+
+#skills li {
+    font-size: 1.1rem;
+    margin: 10px 0;
+}
+
+/* Work Experience Section */
+#experience {
+    padding: 40px 0;
+    background-color: #fff;
+}
+
+#experience .job {
+    margin-bottom: 20px;
+}
+
+#experience h3 {
+    font-size: 1.6rem;
+    margin-bottom: 10px;
+}
+
+#experience p {
+    font-size: 1.1rem;
+    color: #555;
+}
+
+#experience ul {
+    list-style-type: none;
+}
+
+#experience ul li {
+    font-size: 1rem;
+    margin: 5px 0;
+}
+
+/* Projects Section */
+#projects {
+    padding: 40px 0;
+    background-color: #CCE3EB;
+}
+
+#projects h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+#projects ul {
+    list-style-type: none;
+}
+
+#projects li {
+    font-size: 1.1rem;
+    margin: 10px 0;
+}
+
+/* Contact Section */
+#contact {
+    padding: 40px 0;
+    background-color: #fff;
+}
+
+#contact h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+#contact p {
+    font-size: 1.1rem;
+}
+
+footer {
+    background-color: #2F5597;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    margin-top: 20px;
+}
+
+footer p {
+    font-size: 1rem;
+}
